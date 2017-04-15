@@ -11,13 +11,13 @@ if __name__ == "__main__":
                 nome = sys.argv[2]
                 mensagem = sys.argv[3]
                 nomefinal = sys.argv[4]
-                if (".jpg") not in nome or (".jpg") not in nome:
+                if (".jpg") not in nome or (".png") not in nome:
                     os.system ("cls")
                     print ("Extensão incorreta, você deve informar uma imagem, e você informou:", nome)
                 if (".txt") not in mensagem:
                     os.system ("cls")
                     print ("Extensão incorreta, você deve informar um txt/bloco de notas, e você informou:", mensagem)
-                if (".jpg") not in nomefinal or (".jpg") not in nomefinal:
+                if (".jpg") not in nomefinal or (".png") not in nomefinal:
                     os.system ("cls")
                     print ("Extensão incorreta, você deve informar uma imagem, e você informou:", nomefinal)
                 os.system ("cls && " + "copy /b "+nome+"+ "+mensagem+" "+nomefinal)
@@ -45,13 +45,13 @@ if __name__ == "__main__":
                 nome = sys.argv[2]
                 mensagem = sys.argv[3]
                 nomefinal = sys.argv[4]
-                if (".jpg") not in nome or (".jpg") not in nome:
+                if (".jpg") not in nome or (".png") not in nome:
                     os.system ("clear")
                     print ("Extensão incorreta, você deve informar uma imagem, e você informou:", nome)
                 if (".txt") not in mensagem:
                     os.system ("clear")
                     print ("Extensão incorreta, você deve informar um txt/bloco de notas, e você informou:", mensagem)
-                if (".jpg") not in nomefinal or (".jpg") not in nomefinal:
+                if (".jpg") not in nomefinal or (".png") not in nomefinal:
                     os.system ("clear")
                     print ("Extensão incorreta, você deve informar uma imagem, e você informou:", nomefinal)
                 os.system ("clear && " + "echo "+ mensagem + "> "+ nomefinal) 
