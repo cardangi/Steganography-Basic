@@ -1,3 +1,7 @@
+#!/usr/bin/python
+#Steganography Basic
+# -*- coding: ascii -*-
+
 import platform, os, sys
 
 if __name__ == "__main__":
