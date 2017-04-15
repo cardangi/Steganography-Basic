@@ -24,6 +24,11 @@ if __name__ == "__main__":
                 print ("\n")
                 os.system ("color b")
                 print ("Terminado! Sua mensagem foi escondida em:",nomefinal)
+                def voltar(mensagem):
+                    yield nome
+                    yield mensagem
+                    yield nomefinal
+                print (nome + " + ",mensagem + " > ",nomefinal)
                 print ("Para ler a mesma, abra a imagem com um editor de texto, e vá ate a ultima linha..")
         except IndexError:
             def main():
@@ -59,6 +64,11 @@ if __name__ == "__main__":
                 
                 print ("Terminado! Sua mensagem foi escondida em:",nomefinal)
                 print ("Para ler a mesma, abra a imagem com um editor de texto, e vá ate a ultima linha..")
+                def voltar(mensagem):
+                    yield nome
+                    yield mensagem
+                    yield nomefinal
+                print (nome + " + ",mensagem + " > ",nomefinal)
         except IndexError:
             def main():
                 os.system("clear")
