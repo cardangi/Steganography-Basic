@@ -37,7 +37,7 @@ if __name__ == "__main__":
                 print ("\nDepois,{mensagem.txt}, você importa o TXT com a mensagem. Crie um .txt, digite uma mensagem e salve.")
                 print ("\nE Por ultimo, nome final.")
                 print ("No total, devem ser 4 argumentos.")
-                print ("\npython Steganography.py --encrypt, nomeimagem.jpg, mensagem.txt, nomefinal.jpg")
+                print ("\npython Steganography.py --encrypt nomeimagem.jpg mensagem.txt nomefinal.jpg")
             main()
     if platform.system() == "Linux":
         try:
@@ -70,6 +70,6 @@ if __name__ == "__main__":
                 print ("\nDepois,{mensagem.txt}, você importa o TXT com a mensagem. Crie um .txt, digite uma mensagem e salve.")
                 print ("\nE Por ultimo, nome final.")
                 print ("No total, devem ser 4 argumentos.")
-                print ("\npython Steganography.py --encrypt, nomeimagem.jpg, mensagem.txt, nomefinal.jpg")
+                print ("\npython Steganography.py --encrypt nomeimagem.jpg mensagem.txt nomefinal.jpg")
             main()
 
